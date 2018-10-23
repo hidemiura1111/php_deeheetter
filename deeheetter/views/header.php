@@ -14,13 +14,13 @@
   <body>
       
       <nav class="navbar navbar-light bg-faded">
-  <a class="navbar-brand" href="?page=home">Twitter</a>
+  <a class="navbar-brand" href="?page=home">Deeheetter</a>
   <ul class="nav navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="?page=timeline">Your timeline</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="?page=yourtweets">Your tweets</a>
+      <a class="nav-link" href="?page=yourtweets">Your deeheets</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="?page=publicprofiles">Public Profiles</a>

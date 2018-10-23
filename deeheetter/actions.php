@@ -117,11 +117,11 @@
         
         if (!$_POST['tweetContent']) {
                     
-            echo "Your tweet is empty!";
+            echo "Your deeheet is empty!";
                     
             } else if (strlen($_POST['tweetContent']) > 140) {
             
-            echo "Your tweet is too long!";
+            echo "Your deeheet is too long!";
             
         } else {
             

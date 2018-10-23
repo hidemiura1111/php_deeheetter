@@ -1,7 +1,7 @@
 <div class="container mainContainer">
 
     <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-7">
       
         <?php if ($_GET['userid']) { ?>
       
@@ -16,7 +16,7 @@
       <?php } ?>
       
         </div>
-  <div class="col-md-4">
+  <div class="col-md-5">
         
         <?php displaySearch(); ?>
       

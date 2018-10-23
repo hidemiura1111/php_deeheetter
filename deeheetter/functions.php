@@ -80,7 +80,7 @@
                 $userQueryResult = mysqli_query($link, $userQuery);
                 $user = mysqli_fetch_assoc($userQueryResult);
             
-            echo "<h2>".mysqli_real_escape_string($link, $user['email'])."'s Tweets</h2>";
+            echo "<h2>".mysqli_real_escape_string($link, $user['email'])."'s Deeheets</h2>";
             
             $whereClause = "WHERE userid = ". mysqli_real_escape_string($link, $type);
             
@@ -139,7 +139,7 @@
     <input type="hidden" name="page" value="search">
     <input type="text" name="q" class="form-control" id="search" placeholder="Search">
   </div>
-  <button type="submit" class="btn btn-primary">Search Tweets</button>
+  <button type="submit" class="btn btn-primary">Search Deeheets</button>
 </form>';
         
         
@@ -155,7 +155,7 @@
   <div class="form-group">
     <textarea class="form-control" id="tweetContent"></textarea>
   </div>
-  <button id="postTweetButton" class="btn btn-primary">Post Tweet</button>
+  <button id="postTweetButton" class="btn btn-primary">Post Deeheet</button>
 </div>';
             
             
