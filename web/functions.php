@@ -1,8 +1,9 @@
 <?php
-echo "Hello world";
-
 
     session_start();
+
+echo "Hello world";
+
 
     $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
 
