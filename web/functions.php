@@ -15,6 +15,9 @@ echo "Hello world";
         
     }
 
+echo "Hello world";
+
+
     if (@$_GET['function'] == "logout") {
         
         session_unset();
