@@ -2,10 +2,12 @@
 
     session_start();
 
-echo "Hello world";
+echo "Hello world_2";
 
 
     $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
+
+echo "Hello world_3";
 
 
     if (mysqli_connect_errno()) {
@@ -14,8 +16,6 @@ echo "Hello world";
         exit();
         
     }
-
-echo "Hello world";
 
 
     if (@$_GET['function'] == "logout") {
