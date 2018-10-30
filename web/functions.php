@@ -2,10 +2,13 @@
 
     session_start();
 
+    $DB_HOSTNAME = getenv('DB_HOSTNAME');
     $DB_USERNAME = getenv('DB_USERNAME');
+    $DB_PASSWORD = getenv('DB_PASSWORD');
+    $DB_DBRNAME = getenv('DB_DBNAME');
 
 //    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
-    $link = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", $DB_USERNAME, "2392bbac", "heroku_67156ceb45f663c");
+    $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
 
 
 /*
