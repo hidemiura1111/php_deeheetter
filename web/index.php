@@ -1,5 +1,4 @@
 <?php
-echo "Hello world_1";
 
     include("functions.php");
 

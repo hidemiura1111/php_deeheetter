@@ -2,18 +2,19 @@
 
     session_start();
 
-echo "Hello world_2";
+//    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
+    $link = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", "bceb1a8dbd865e", "2392bbac", "heroku_67156ceb45f663c");
 
 
-    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
+/*
 
-echo "Hello world_3";
+*/
 
 
     if (mysqli_connect_errno()) {
         
-//        print_r(mysqli_connect_error());
-//        exit();
+        print_r(mysqli_connect_error());
+        exit();
         
     }
 
