@@ -3,7 +3,7 @@
     session_start();
 
 //    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
-    $link = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", "bceb1a8dbd865e", "2392bbac", "heroku_67156ceb45f663c");
+    $link = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", DB_USERNAME, "2392bbac", "heroku_67156ceb45f663c");
 
 
 /*
