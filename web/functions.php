@@ -11,11 +11,6 @@
     $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
 
 
-/*
-
-*/
-
-
     if (mysqli_connect_errno()) {
         
         print_r(mysqli_connect_error());
