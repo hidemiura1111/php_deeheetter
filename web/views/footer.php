@@ -2,7 +2,7 @@
 
     <div class="container">
         
-        <p>&copy; My Website 2016</p>
+        <p>Copyright &copy;2018 Deeheetter</p>
     
     </div>
 
