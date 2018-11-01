@@ -10,7 +10,12 @@
 //    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
     $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
 
-$test_query = "SELECT * FROM tweets";
+echo $DB_HOSTNAME . "\n";
+echo $DB_USERNAME . "\n";
+echo $DB_PASSWORD . "\n";
+echo $DB_DBNAME . "\n";
+
+$test_query = "SELECT * FROM users";
 $test_result = mysqli_query($link, $test_query);
 var_dump($test_result);
 
