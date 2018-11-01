@@ -5,15 +5,15 @@
     $DB_HOSTNAME = getenv('DB_HOSTNAME');
     $DB_USERNAME = getenv('DB_USERNAME');
     $DB_PASSWORD = getenv('DB_PASSWORD');
-    $DB_DBRNAME = getenv('DB_DBNAME');
+    $DB_DBNAME = getenv('DB_DBNAME');
 
 //    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
     $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
 
-echo $DB_HOSTNAME . "  \n";
-echo $DB_USERNAME . "  \n";
-echo $DB_PASSWORD . "  \n";
-echo $DB_DBNAME . "  \n";
+//echo $DB_HOSTNAME . "  \n";
+//echo $DB_USERNAME . "  \n";
+//echo $DB_PASSWORD . "  \n";
+//echo $DB_DBNAME . "  \n";
 
 //$test_query = "SELECT * FROM users";
 //$test_result = mysqli_query($link, $test_query);
