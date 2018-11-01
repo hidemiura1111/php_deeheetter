@@ -6,7 +6,6 @@
     $DB_USERNAME = getenv('DB_USERNAME');
     $DB_PASSWORD = getenv('DB_PASSWORD');
     $DB_DBRNAME = getenv('DB_DBNAME');
-echo "hello" . $DB_HOSTNAME;
 
 //    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
     $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
