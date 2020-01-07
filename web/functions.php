@@ -2,13 +2,16 @@
 
     session_start();
 
-    $DB_HOSTNAME = getenv('DB_HOSTNAME');
-    $DB_USERNAME = getenv('DB_USERNAME');
-    $DB_PASSWORD = getenv('DB_PASSWORD');
-    $DB_DBNAME = getenv('DB_DBNAME');
+//For Heroku
+//    $DB_HOSTNAME = getenv('DB_HOSTNAME');
+//    $DB_USERNAME = getenv('DB_USERNAME');
+//    $DB_PASSWORD = getenv('DB_PASSWORD');
+//    $DB_DBNAME = getenv('DB_DBNAME');
+//
+//    $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
 
-//    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
-    $link = mysqli_connect($DB_HOSTNAME, $DB_USERNAME, $DB_PASSWORD, $DB_DBNAME);
+//For local environment
+    $link = mysqli_connect("localhost", "userhide", "mmmiuraaa", "deeheetter");
 
 
     if (mysqli_connect_errno()) {

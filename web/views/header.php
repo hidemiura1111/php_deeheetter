@@ -8,8 +8,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-      
-      <link rel="stylesheet" href="../styles.css">
+     
+    <!--Style sheet -->
+    <link rel="stylesheet" href="../styles.css">
+    
+    <!-- The best place for this one is your <HEAD> tag -->
+    <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
+    <script src="https://ucarecdn.com/libs/widget/3.6.2/uploadcare.full.min.js" charset="utf-8"></script>
+ 
   </head>
   <body>
       
